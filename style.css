@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-image: linear-gradient(purple,pink);
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    font-size:10vmin;
+    background-blend-mode: color-burn;
+    background:linear-gradient(pink,purple)
+    
+}
+#new{
+    margin-top: 5vmin;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(94, 30, 91);
+    color: pink;
+    font-size: larger;
+
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+
+}
+.boxes{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+.button{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    font-size: 10vmin;
+    font-weight: 600;
+    color: rgb(245, 245, 199);
+    background: linear-gradient(70deg,purple,pink,purple);
+}
+.reset{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(94, 30, 91);
+    color: pink;
+    font-size: larger;
+}
+.msg-Container{
+    font-size: 30px;
+    color: rgb(from rgb(174, 170, 170) r g b);
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
